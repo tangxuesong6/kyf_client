@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    knowledgeable yet foolish-->
+    <string name="app_name">kyf</string>
+
+    <string name="chat_interface">Chat Interface</string>
+    <string name="server_url">Server URL:</string>
+    <string name="server_mode_api_key">Use your own API key to access OpenAI via server (optional):</string>
+    <string name="local_mode_api_key">Use your own API key locally (no need for server forwarding mode, optional):</string>
+    <string name="log_in">Log In</string>
+    <string name="save">Save</string>
+    <string name="delete_history">Delete Chat History</string>
+    <string name="max_allow_tokens">Maximum number of tokens:</string>
+    <string name="max_content_length">OpenAI content record length:</string>
+
+    <string name="init_success">Initialization Successful</string>
+    <string name="enter_content">Please Enter Content</string>
+    <string name="initializing">Initializing, please wait…</string>
+    <string name="err_server_url">Please enter server URL</string>
+    <string name="err_local_api_key">Please enter local API key</string>
+    <string name="promptsBean">Prompts</string>
+
+    <string name="server">server</string>
+    <string name="local">local</string>
+    <string name="update">update</string>
+    <string name="or">or</string>
+    <string name="send">send</string>
+    <string name="err_token">The number of tokens is insufficient. Please delete the Chat log or reduce the length of the content record</string>
+
+</resources>

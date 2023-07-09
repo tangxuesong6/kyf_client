@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:clickable="true"
+    android:focusable="true"
+    android:id="@+id/ll_prompts_back"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="left"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/shape_msg_receive"
+    android:orientation="vertical"
+    android:padding="2dp">
+
+
+        <TextView
+            android:id="@+id/tv_prompts_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:textColor="#fff"
+            android:clickable="false"
+           />
+
+        <TextView
+            android:id="@+id/tv_prompts_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:textColor="#fff"
+            android:clickable="false"
+            />
+
+<!--    </LinearLayout>-->
+
+</LinearLayout>
+

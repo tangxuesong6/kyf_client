@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">kyf</string>
+    <string name="chat_interface">聊天界面</string>
+    <string name="server_url">服务器地址:</string>
+    <string name="server_mode_api_key">使用自己的api_key通过服务器访问openai(可为空):</string>
+    <string name="local_mode_api_key">在本地使用自己的api_key(不需要通过服务器转发模式,可为空):</string>
+    <string name="log_in">登录</string>
+    <string name="save">保存</string>
+    <string name="delete_history">删除聊天记录</string>
+    <string name="max_allow_tokens">最大token数:</string>
+    <string name="max_content_length">openai 内容记录长度:</string>
+
+    <string name="init_success">初始化成功</string>
+    <string name="enter_content">请输入内容</string>
+    <string name="initializing">正在初始化，请稍等…</string>
+    <string name="err_server_url">请输入服务器地址</string>
+    <string name="err_local_api_key">请输入本地api_key</string>
+    <string name="promptsBean">提示词</string>
+
+    <string name="server">server</string>
+    <string name="local">local</string>
+    <string name="update">update</string>
+    <string name="or">or</string>
+    <string name="send">send</string>
+    <string name="err_token">Token数不足,请删除聊天记录或者减少内容记录长度</string>
+
+
+</resources>

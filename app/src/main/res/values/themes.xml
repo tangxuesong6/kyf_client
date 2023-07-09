@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.OpenAiClient" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+
+    <style name="Theme.OpenAiClient" parent="Base.Theme.OpenAiClient" />
+
+    <style name="dialogTransparent" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>  <!--边框-->
+        <item name="android:windowIsFloating">true</item>  <!--是否浮现在activity之上-->
+        <item name="android:windowBackground">@android:color/transparent</item>  <!--dialog底色背景透明-->
+        <item name="android:windowNoTitle">true</item>  <!--是否无标题栏-->
+        <item name="android:backgroundDimEnabled">true</item>  <!--大背景色是否不透明-->
+    </style>
+
+
+
+</resources>
